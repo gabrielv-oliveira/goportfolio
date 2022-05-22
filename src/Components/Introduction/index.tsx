@@ -7,6 +7,7 @@ import styledImg from '../../assets/styled.svg';
 import javascriptImg from '../../assets/javascript.svg';
 import ciclesImg from '../../assets/cicles.svg'
 import { Buttons } from '../Buttons';
+import { DevBox } from './devBox/indes';
 
 
 export function Introduction () {
@@ -15,10 +16,12 @@ export function Introduction () {
             <img src={frontImg} alt="" />
 
             <div className='rigth-content'>
-                <h1>Front End <strong>Developer</strong></h1>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+                <h1 aria-hidden="true">Front End <strong>Developer</strong></h1>
+                <p>I'm passionate about developing new projects and I belie that it<br />  can change lives. Interested in the entire frontend spectrum and <br /> working on ambitious projects.</p>
+                
+                <DevBox/>
                 <div>
-                    <img src={cssImg} alt="CSS" />
+                <img src={cssImg} alt="CSS" />
                 <img src={htmlImg} alt="HTML" />
                 <img src={reactImg} alt="React JS" />
                 <img src={styledImg} alt="Styled Components" />

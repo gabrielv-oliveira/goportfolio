@@ -4,15 +4,16 @@ export const Component = styled.div`
 
     padding: 1rem 2rem ;
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    align-items: flex-start;
+    align-content: center;
+    justify-content: space-around;
     background: #00A1BE;
     
-    
-
-   h1{
+    h1{
         color: #fff;
     }
+    .right{
+    justify-content: flex-start;
 
     ul{
         display: inline-flex;
@@ -31,6 +32,7 @@ export const Component = styled.div`
                 font-size: 20px;
                 font-weight: 700;
                 color: var(--purple);
+                margin-right: 10px;
             }
         }
     
@@ -43,6 +45,8 @@ export const Component = styled.div`
         
     
     } 
+    }
+   
 
     
     `;

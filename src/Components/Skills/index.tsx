@@ -1,4 +1,4 @@
-
+import 'simple-react-donut-chart/src/style.css'
 import { Component } from "./styled";
 
 
