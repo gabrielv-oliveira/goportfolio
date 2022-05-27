@@ -2,7 +2,8 @@ import { Component } from "./styled";
 import linkednImg from "../../../assets/linkedn.svg";
 import instagramImg from "../../../assets/instagram.svg";
 import gitImg from "../../../assets/github.svg";
-import { Link } from "react-router-dom";
+
+
 
 export function Header () {
     return(
@@ -11,16 +12,15 @@ export function Header () {
         
             
             <div className="right">  
-            <ul>
-                  <li><Link to='#aboutme'>About Me</Link></li>
-                  <li><Link to='#myskills'>My Skills</Link></li>
-                  <li><Link to='#portfolio'>Portfolio</Link></li>
-                  <li><Link to='#contactme'>Contact Me</Link></li>
-                  
-              </ul>
-                <img src={ instagramImg } alt="Me siga no Instagram" />
-                <img src={ linkednImg } alt="Veja meu perfil no Linkedn" />
-                <img src={ gitImg } alt="Veja meu perfil no Linkedn" />
+            <nav>
+                <a href='#aboutme'>About Me</a>
+                <a href='#skills'>Skills</a>
+                <a href='#portfolio'>Portfolio</a>
+                <a href='#contactme'>Contact Me</a>
+            </nav>
+                <a rel="noopener noreferrer" target='_blank' href="https://www.instagram.com/gabuhvv/"><img src={ instagramImg } alt="Me siga no Instagram" /></a>
+                <a rel="noopener noreferrer" target='_blank'href="https://www.linkedin.com/in/gabriel-vinicius-898a24101/"><img src={ linkednImg } alt="Veja meu perfil no Linkedn" /></a>
+                <a rel="noopener noreferrer" target='_blank'href="https://github.com/gabrielv-oliveira"><img src={ gitImg } alt="Veja meu perfil no Linkedn" /></a>
             </div>
               
         

@@ -15,17 +15,17 @@ export const Component = styled.div`
     .right{
     justify-content: flex-start;
 
-    ul{
+    nav{
         display: inline-flex;
         left: 2rem;
        
         }
-    li{
+    a{
         list-style-type: none;
         font-size:17px ;
         font-weight: 500;
         color: #fff;
-            & + li {
+            & + a {
             margin-left: 16px;
         }
             &:last-child{

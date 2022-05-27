@@ -34,8 +34,7 @@ html{
 
     body, input, textarea, button {
         font-family: 'Ubuntu', sans-serif;
-        font-weight: 400 500 700;
-    }
+        }
     
     body::-webkit-scrollbar {
         width: 12px;               

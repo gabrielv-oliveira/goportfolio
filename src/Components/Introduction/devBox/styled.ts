@@ -1,6 +1,6 @@
 import styled from "styled-components";
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-import { transparentize } from "polished";
+
 
 export const DevBoxx = styled.nav`
   display: grid;
@@ -49,6 +49,10 @@ export const DevBoxx = styled.nav`
   }
 `;
 
+interface ObjectProps{
+  isBrasil?: boolean; 
+}
+
 export const Object = styled.div`
   display: block !important;
 
@@ -58,13 +62,20 @@ export const Object = styled.div`
     font-weight: lighter;
     margin-left: 7px;
   }
+  
 
   .content {
     padding-left: 2rem;
     color: #fff;
-
-    span {
-      color: var(--blue);
-    }
   }
+
+
+`;
+
+export const P = styled.p  <ObjectProps>`
+  
+  span{
+    color: var(--blue);
+  }
+  
 `;

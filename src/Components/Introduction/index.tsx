@@ -7,7 +7,7 @@ import styledImg from '../../assets/styled.svg';
 import javascriptImg from '../../assets/javascript.svg';
 import ciclesImg from '../../assets/cicles.svg'
 import { Buttons } from '../Buttons';
-import { DevBox } from './devBox/indes';
+import { DevBox } from './devBox';
 
 
 export function Introduction () {
