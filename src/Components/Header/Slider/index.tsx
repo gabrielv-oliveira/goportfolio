@@ -5,7 +5,7 @@ import { Buttons } from "../../Buttons";
 export function Slider () {
     return(
     <Component>
-    <div>
+    <div data-aos='fade-left'>
         <p className="hello">Hello, I'm</p>
         <p className="name">Gabriel Oliveira</p>
         <p className="subTitle">Front End Developer</p>
@@ -23,7 +23,7 @@ export function Slider () {
         </div>
         
         </div>
-    <img src={sliderImg} alt="" />
+    <img data-aos='fade-right' src={sliderImg} alt="" />
     </Component>
 
 )

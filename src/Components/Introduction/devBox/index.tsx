@@ -9,7 +9,7 @@ export function DevBox() {
             
             <P className="content" >From: <span>Brasil</span>,</P>
             <P className="content" >Living: <span>Portugal</span>,</P>
-            <P className="content" >Studying: <span>Since2021</span></P>
+            <P className="content" >Developing: <span>Since2021</span></P>
             </Object>
           
             

@@ -26,7 +26,7 @@ export const Component = styled.div`
     nav {
       display: grid;
       grid-template-columns: repeat(1, 1fr);
-      grid-template-rows: repeat(3, 200px);
+      grid-template-rows: repeat(3, 189px);
 
       .item1{
         grid-row: 1/ span 2;
