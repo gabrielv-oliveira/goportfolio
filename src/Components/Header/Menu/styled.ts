@@ -10,6 +10,7 @@ export const Component = styled.div`
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 1;
 
   h1 {
     color: #fff;
