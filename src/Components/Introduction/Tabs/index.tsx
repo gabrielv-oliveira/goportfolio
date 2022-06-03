@@ -1,6 +1,8 @@
 import { Tabs, TabList, Tab, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import { DevBox } from '../devBox';
+import { Topics } from './Topics';
+
 
 
 
@@ -18,18 +20,31 @@ export function AboutTab() {
             </TabPanel>
 
             <TabPanel>
-            <p>
-                    <a className='link-about' rel='noopener noreferrer' target='_blank' href='https://www.faculdadeflamingo.com.br/marketing'>Marketing | Flamingo College</a> (<i> 2014 </i>)<br />
-                    Focusing on the main areas of direct, industrial, corporate, retail <br /> and services marketing.
-                </p>
-                <p>
-                    <a className='link-about' rel='noopener noreferrer' target='_blank' href='https://www.devmedia.com.br/carreira-programador/?slug=front-end'>HTML CSS JAVASCRIPT | DevMedia</a> (<i> 2021 </i>)<br />
-                    Focusing on the main areas of direct, industrial, corporate, retail and services marketing.
-                </p>
-                <p>
-                    <a className='link-about' rel='noopener noreferrer' target='_blank' href='https://www.rocketseat.com.br/ignite'>React JS and TypeScript | RocktSeat</a> (<i> 2021 </i>)<br />
-                    Focusing on the main areas of direct, industrial, corporate, retail and services marketing.
-                </p>
+                <Topics 
+                link = 'https://www.faculdadeflamingo.com.br/marketing'
+                theme ='Marketing'
+                place ='Flamingo College'
+                date = '2014'
+                description='Focusing on the main areas of direct, industrial, corporate, retail'
+                seDescription='and services marketing.'
+                />
+                <Topics 
+                link = 'https://www.devmedia.com.br/carreira-programador/?slug=front-end'
+                theme ='HTML CSS JAVASCRIPT'
+                place ='DevMedia'
+                date = '2021'
+                description='Programming web pages and applications, from basic contact to'
+                seDescription='programming to initial contact with more complex web languages.'
+                />
+                <Topics 
+                link = 'https://www.rocketseat.com.br/ignite'
+                theme ='React JS and TypeScript'
+                place ='RocketSeat Ignite'
+                date = '2021 in Progress'
+                description='Ignite is an acceleration program focused on specialization, '
+                seDescription='for those who already master programming.'
+                />
+                           
             </TabPanel>
             <TabPanel>
                 

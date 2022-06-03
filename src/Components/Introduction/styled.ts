@@ -20,26 +20,40 @@ export const Component = styled.div`
   .react-tabs__tab {
     display: inline-block;
     font-size: 1.2rem;
-    border: 1px solid transparent;
-    border-bottom: none;
     bottom: -1px;
     position: relative;
     list-style: none;
     padding: 6px 12px;
     cursor: pointer;
     caret-color: var(--grey);
+
+    ::before {
+      position: absolute;
+      content: "";
+      width: 30px;
+      background: rgba(0, 0, 0, 0.2);
+      -webkit-transition: all 0.7s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+      transition: all 0.7s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+      height: 2px;
+      bottom: 0;
+    }
   }
 
-  .link-about{
+  .link-about {
     font-weight: 500;
     font-size: 18px;
   }
 
   .react-tabs__tab--selected {
     background: #fff;
-    border-bottom: 2px solid var(--green);
     color: var(--green);
     font-weight: 500;
+    border: none;
+
+    ::before {
+      width: 100%;
+      background: currentColor;
+    }
   }
 
   div {

@@ -14,7 +14,7 @@ import { AboutTab } from './Tabs';
 export function Introduction() {
     return (
         <Component id='aboutme'>
-            <img data-aos='flip-left'  data-aos-delay="50" src={frontImg} alt="" />
+            <img data-aos='fade-right'  data-aos-delay="50" src={frontImg} alt="" />
 
             <div className='rigth-content'>
                 <h1 aria-hidden="true">Front End <strong>Developer</strong></h1>
