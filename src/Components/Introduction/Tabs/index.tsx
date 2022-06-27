@@ -1,6 +1,7 @@
 import { Tabs, TabList, Tab, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import { DevBox } from '../devBox';
+import { TimeLine } from './TimeLine';
 import { Topics } from './Topics';
 
 
@@ -47,6 +48,7 @@ export function AboutTab() {
                            
             </TabPanel>
             <TabPanel>
+            <TimeLine />
                 
                
             </TabPanel>

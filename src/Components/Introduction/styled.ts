@@ -56,11 +56,11 @@ export const Component = styled.div`
     }
   }
 
-  div {
+  .rigth-content {
     display: grid;
     row-gap: 1rem;
     width: 42rem;
-    align-content: flex-end;
+    
 
     h1 {
       font-size: 3rem;

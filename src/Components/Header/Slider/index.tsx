@@ -1,5 +1,5 @@
 import { Component } from "./styled";
-import sliderImg from "./slider-perfil.svg"
+import sliderImg from "./slider-perfil.png"
 import { Buttons } from "../../Buttons";
 
 export function Slider () {
